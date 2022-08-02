@@ -167,6 +167,8 @@ body {
   background-color: var(--primary);
   padding: .75em;
   text-align: center;
+  padding: 25%;
+
 }
 
 .footer a:hover{ 
@@ -174,3 +176,53 @@ body {
   background-color: black;
 }
 
+.contactusform {
+  color:#f0e962;
+  background-color: var(--primary);
+  font-size: large;
+  border-style: double;
+  border-width: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;  
+  
+  padding: .75em;
+}
+
+.contactusform table {
+  width:100%;
+  max-width:550px;
+  border:0;
+   
+}
+
+.contactusform textarea {
+  background-color: azure;
+  color: black;
+}
+.contactusform tr {
+  border-style:groove;
+  border-color:#f0e962;
+}
+
+body {  
+  background-color: #7f95b8;
+}
+
+.contactusform input{
+  background-color: azure;
+  flex: auto;
+}
+
+.contactusform button{
+  background-image: url(/image/pokeball.png);
+  background-position: center;
+  background-size: 100px;
+  border: .5em;
+  padding: 2em;
+  border-radius: 2em;  
+}
+
+#submit {
+  float: right;
+}
