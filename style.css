@@ -150,7 +150,7 @@ body {
   border-bottom: 10px;
 }
 
-#recentcatch table{
+.recentcatch table{
   
   color:#f0e962;
   font-size: large;
@@ -161,13 +161,38 @@ body {
   width: 50%;    
 }
 
-
-.footer {
+.futurereleases {
+  display: block;
   color:#f0e962;
   background-color: var(--primary);
-  padding: .75em;
+  font-size: large;
+  border-style: double;
+  border-width: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;   
+  padding: .75em;  
+}
+
+.futurereleases h3{
+  color: #fa1919;
+  font-size:x-large;
+  font-weight: 600;
+  border-style:solid;
+  border-color: #f0e962;
   text-align: center;
-  padding: 25%;
+  border-bottom: 10px;
+}
+
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  color:#f0e962;
+  background-color: var(--primary);
+  
+  text-align: center;
+  
   margin-top: auto;
 
 }
