@@ -205,6 +205,21 @@ body {
 
 }
 
+.footerPull{
+  display: flex;
+  flex-direction: column;
+  color:#f0e962;
+  background-color: var(--primary);  
+  text-align: center;  
+  margin-top: 45%;
+
+}
+
+.footerPull a:hover{ 
+  color:aliceblue;
+  background-color: black;
+}
+
 .footer a:hover{ 
   color:aliceblue;
   background-color: black;
@@ -266,4 +281,32 @@ body {
   }
 #submit {
   float: right;
+}
+
+.rarestpull {
+  float: left;
+}
+
+.rarestpull thead {
+  background-color: #f0e962;
+  color: #fa1919;
+  text-shadow: 5em;
+  font-size: xx-large;
+  font-weight: bolder;
+  text-align: center;
+
+}
+
+.expensivepull {
+  float: right;
+}
+
+.expensivepull thead {
+  background-color: #f0e962;
+  color: #fa1919;
+  text-shadow: 5em;
+  font-size: xx-large;
+  font-weight: bolder;
+  text-align: center;
+  
 }
